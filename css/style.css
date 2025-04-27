@@ -7,6 +7,14 @@ body {
   font-family: Arial, sans-serif; /* フォントも適用 */
 }
 
+header {
+  width: 100%; /* 横幅を画面いっぱいに広げる */
+  background-color: #333; /* 背景色 */
+  padding: 20px 0; /* 上下のパディング */
+  text-align: center; /* 中央揃え */
+  color: white; /* 文字色 */
+}
+
 /* h1にスタイルを追加してみる */
 h1 {
   color: #333;
