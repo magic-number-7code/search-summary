@@ -7,12 +7,19 @@ body {
   font-family: Arial, sans-serif; /* フォントも適用 */
 }
 
+/* headerのスタイル */
 header {
-  width: 100%; /* 横幅を画面いっぱいに広げる */
-  background-color: #333; /* 背景色 */
-  padding: 20px 0; /* 上下のパディング */
-  text-align: center; /* 中央揃え */
-  color: white; /* 文字色 */
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  box-sizing: border-box; /* パディングも幅に含める */
+}
+
+/* header内のh1に余計なマージンを追加しない */
+header h1 {
+  margin: 0;
 }
 
 /* h1にスタイルを追加してみる */
